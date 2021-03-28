@@ -22,7 +22,8 @@ h3                     {color: #11999E;
                         margin-bottom: 40px;}
 
 
-.mee                   {width: 150px;}
+.mee                   {width: 150px;
+                        border-radius: 80px;}
 .code-img              {width: 25%;
                         float: left;
                         margin-right: 30px;}
