@@ -1,7 +1,8 @@
 
 body                   {font-family: 'Merriweather', serif;
                         margin: 0px;
-                        text-align: center;}
+                        text-align: center;
+                        color:white;}
 
 
 h1                     {color: #66BFBF;
@@ -37,16 +38,19 @@ h3                     {color: #11999E;
 
 .top-container         {background-color: #E4F9F5;
 	                      position: relative;
-                        padding-top: 100px;}
+                        padding-top: 100px;
+                        background-color: #0a2520;}
                   
-.middle-container      {margin-top: 100px;}
+.middle-container      {background-color: black;
+                        margin-top: 0px;
+                        padding-top: 100px;}
 .skill-row             {width: 50%;
                        margin: 100px auto 100px auto;
                        text-align: left;
                        line-height: 2}
 .bottom-container     {padding-top: 30px;
                        padding-bottom: 30px;
-                       background-color: #66BFBF}
+                      background-color: #114848/*#66BFBF} */
 .stu                  {text-decoration: underline;}
 
 .top-cloud            {position: absolute;
