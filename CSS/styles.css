@@ -36,7 +36,7 @@ h3                     {color: #11999E;
                         display:}
 .btn                   {display: block;}
 
-.top-container         {background-color: #E4F9F5;
+.top-container         {/*background-color: #E4F9F5;*/
 	                      position: relative;
                         padding-top: 100px;
                         background-color: #0a2520;}
