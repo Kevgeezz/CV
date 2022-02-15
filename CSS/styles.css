@@ -2,7 +2,7 @@
 body                   {font-family: 'Merriweather', serif;
                         margin: 0px;
                         text-align: center;
-                        color:white;}
+                         color: black;}
 
 
 h1                     {color: #66BFBF;
@@ -22,10 +22,12 @@ h3                     {color: #11999E;
                         margin-top: 40px;
                         margin-bottom: 40px;}
 
-.augusco:hover              {color:green;}
+                        
 
+
+.intro                 {margin-top: 2%;}
 .mee                   {width: 150px;
-                        border-radius: 80px;}
+                        border-radius: 100%}
 .code-img              {width: 25%;
                         float: left;
                         margin-right: 30px;}
@@ -36,21 +38,20 @@ h3                     {color: #11999E;
                         display:}
 .btn                   {display: block;}
 
-.top-container         {/*background-color: #E4F9F5;*/
+.top-container         {background-color: #E4F9F5;
 	                      position: relative;
-                        padding-top: 100px;
-                        background-color: #0a2520;}
-                  
-.middle-container      {background-color: black;
-                        margin-top: 0px;
                         padding-top: 100px;}
+                  
+.middle-container      {background-color: whitesmoke;
+                        margin-top: 0px;
+                        padding-top: 100px}
 .skill-row             {width: 50%;
                        margin: 100px auto 100px auto;
                        text-align: left;
                        line-height: 2}
 .bottom-container     {padding-top: 30px;
                        padding-bottom: 30px;
-                      background-color: #114848/*#66BFBF*/} 
+                       background-color: #66BFBF}
 .stu                  {text-decoration: underline;}
 
 .top-cloud            {position: absolute;
@@ -133,4 +134,10 @@ hr                     {width: 5%;
 .fb-table                {float: left;}
 .twitter-table           {float: left}
 .instagram-table         {float: left;}
-.whatsapp-table         {float: left;}
+
+
+
+@media screen and (min-width: 1028px)    {.intro        {margin: 2% 25% 100px 25%;}
+                                          .augusco:hover{color: #ff0000;}
+
+                                        }   
